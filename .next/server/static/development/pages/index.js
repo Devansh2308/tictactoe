@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -330,14 +330,29 @@ function Game() {
       lineNumber: 124
     },
     __self: this
-  }, "Reset")));
+  }, "Reset"), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_4__["Link"], {
+    href: "/Todo/main",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 127
+    },
+    __self: this
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_4__["Button"], {
+    variant: "contained",
+    color: "primary",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 128
+    },
+    __self: this
+  }, "Todo App"))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Game);
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!*******************************!*\
   !*** multi ./pages/index.tsx ***!
   \*******************************/

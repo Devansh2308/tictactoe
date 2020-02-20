@@ -3,7 +3,7 @@ import { makeStyles, Theme, createStyles } from "@material-ui/core/styles";
 import Square from "./../components/square";
 import square from "./../components/square";
 import Alert from "@material-ui/lab/Alert";
-import { Button } from "@material-ui/core";
+import { Button, Link } from "@material-ui/core";
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
@@ -124,6 +124,11 @@ function Game() {
         <Button variant="contained" color="primary" onClick={reset}>
           Reset
         </Button>
+        <Link href="/Todo/main">
+          <Button variant="contained" color="primary">
+            Todo App
+          </Button>
+        </Link>
       </div>
     </div>
   );

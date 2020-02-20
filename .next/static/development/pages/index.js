@@ -50434,14 +50434,29 @@ function Game() {
       lineNumber: 124
     },
     __self: this
-  }, "Reset")));
+  }, "Reset"), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_5__["Link"], {
+    href: "/Todo/main",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 127
+    },
+    __self: this
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_5__["Button"], {
+    variant: "contained",
+    color: "primary",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 128
+    },
+    __self: this
+  }, "Todo App"))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Game);
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!*********************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CDevansh%20Kumar%20Sharma%5CDesktop%5Cmegatropuz%5Ccal%5Cpages%5Cindex.tsx ***!
   \*********************************************************************************************************************************************************/
@@ -50464,5 +50479,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
